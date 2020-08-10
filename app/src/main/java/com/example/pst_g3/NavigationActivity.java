@@ -31,19 +31,39 @@ public class NavigationActivity extends AppCompatActivity {
 
         HashMap<String,String>datosDentro= new HashMap<>();
 
-        //Ingreso de Datos 1
+        //Ingreso de Datos Categoria Terro
         datos.put("terror",new HashMap<String, String>());
-        datos.get("terror").put("ImagenUrl","Descripcion");
+        datos.get("terror").put("ImagenUrl","Descripcion1");
 
-        //Ingreso de Datos NUEVA CATEGORIA
-        datos.put("terror",new HashMap<String, String>());
-        datos.get("terror").put("ImagenUrl","Descripcion");
+        //Dato 2 Terror
+
+        datos.get("terror").put("ImagenUre2","Descripcionterror2");
+
+
+        //Ingreso de Datos NUEVA CATEGORIA ROmance
+
+        datos.put("Romance",new HashMap<String, String>());
+        datos.get("Romance").put("https://i.pinimg.com/originals/df/13/88/df13888c426001eb701a8d6f5c617fc2.jpg","Bajo la misma estrella: es un libro escrito que  relata la historia" +
+                "de una adolescente de 16 años que padece de cáncer. Es una novela de literatura juvenil y también está considerada un libro de autoayuda.");
+
+        //Dato 2 Romance
+
+        datos.get("Romance").put("ImagenUrl233","Descripcionromance12");
+
+        //Ingreso de Datos NUEVA CATEGORIA Economia
+
+        datos.put("Economia",new HashMap<String, String>());
+        datos.get("Economia").put("ImagenUrl2economia","Descripcioneconomia");
+
+        //Dato 2 Economia
+        datos.get("Economia").put("ImagenUrl2economia1222","Descripcioneconomia1234");
+
 
 
         //Escribir dentro del text view el valor de la clave
 
 
-        tv1.setText("HOLA"+ datos.get("terror").get("ImagenUrl"));
+        tv1.setText("HOLA"+ datos.get("Romance").get("ImagenUrl2"));
 
 
     }
