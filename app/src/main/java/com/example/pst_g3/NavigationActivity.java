@@ -20,7 +20,7 @@ public class NavigationActivity extends AppCompatActivity {
 
         //Inicializar el objeto tipo text view para escribir el valor sobre el los valores pasado por el Hasmap
 
-        tv1=(TextView)findViewById(R.id.MostraPanta);
+       tv1=(TextView)findViewById(R.id.MostraPanta);
 
         //Creacion del Hasmap que contendra los recursos de la app
 
@@ -62,8 +62,11 @@ public class NavigationActivity extends AppCompatActivity {
 
         //Escribir dentro del text view el valor de la clave
 
+        String dato= getIntent().getStringExtra("dato");
 
-        tv1.setText("HOLA"+ datos.get("Romance").get("ImagenUrl2"));
+        tv1.setText("Hola"+ dato);
+        //tv1.setText("HOLA"+ datosRomance.get("ImagenUrl233"));
+        //tv1.setText("HOLA"+ datos.get("Romance").get("ImagenUrl2"));
 
 
     }

@@ -7,4 +7,8 @@
     <string name="ingresar">INGRESAR</string>
     <string name="contrasena">Contrasena</string>
     <string name="revisardatos">REVISARDATOS</string>
+    <string name="categorias">CATEGORIAS</string>
+    <string name="romance">Romance</string>
+    <string name="terror">Terror</string>
+    <string name="economia">Economia</string>
 </resources>

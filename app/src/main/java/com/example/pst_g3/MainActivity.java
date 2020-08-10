@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void  IniciarLibros(View view){
-        Intent siguienteLibros = new Intent(this, NavigationActivity.class);
+        Intent siguienteLibros = new Intent(this, CategoryActivity.class);
         startActivity(siguienteLibros);
 
 
