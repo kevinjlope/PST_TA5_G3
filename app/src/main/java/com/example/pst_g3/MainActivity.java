@@ -33,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void  IniciarLibros(View view){
-        Intent siguienteLibros = new Intent(this, CategoryActivity.class);
-        startActivity(siguienteLibros);
-
+        //Intent siguienteLibros = new Intent(this, CategoryActivity.class);
+        //startActivity(siguienteLibros);
+        Intent vistaP = new Intent(this, PrincipalActivity.class);
+        startActivity(vistaP);
+        //finish();
 
     }
 
