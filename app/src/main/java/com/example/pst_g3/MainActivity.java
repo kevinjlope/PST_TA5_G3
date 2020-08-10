@@ -2,9 +2,17 @@ package com.example.pst_g3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
+        EditText ed1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +26,18 @@ public class MainActivity extends AppCompatActivity {
         //que es encargado de mostra el splashscreen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
     }
+
+    public void  IniciarLibros(View view){
+        Intent siguienteLibros = new Intent(this, NavigationActivity.class);
+        startActivity(siguienteLibros);
+
+
+    }
+
+
 }
