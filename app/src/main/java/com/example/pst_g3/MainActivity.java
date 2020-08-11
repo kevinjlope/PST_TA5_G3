@@ -7,37 +7,48 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
         EditText ed1;
+        private ImageView imv_photo;
+        private String photo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        setTheme(R.style.AppTheme); //indicarle a nuestro main activity va a tener un nuevo tema
-        //que es encargado de mostra el splashscreen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
+        iniciarImagen();
 
     }
+    public void iniciarImagen(){
+        photo = "https://img.pngio.com/ebook-png-94-images-in-collection-page-1-ebook-png-300_318.png";
+        imv_photo = findViewById(R.id.imageMain);
+        Picasso.with(getApplicationContext()).load(photo).into(imv_photo);
 
-    public void  IniciarLibros(View view){
-        //Intent siguienteLibros = new Intent(this, CategoryActivity.class);
-        //startActivity(siguienteLibros);
-        Intent vistaP = new Intent(this, PrincipalActivity.class);
-        startActivity(vistaP);
-        //finish();
+        Intent i = new Intent(this, PrincipalActivity.class);
+        sleepImage h1 = new sleepImage(i);
+        h1.start();
+    }
+
+    class sleepImage extends Thread{
+        Intent i;
+        public sleepImage(Intent i){
+            this.i = i;
+        }
+        public void run() {
+            try {
+                Thread.sleep(3000);
+                startActivity(i);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 

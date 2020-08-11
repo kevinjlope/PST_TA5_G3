@@ -6,11 +6,21 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="SplashTheme" parent="AppTheme">
-        <item name="android:windowBackground">@drawable/splashscreen</item>
 
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/editTextColorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorPrimary">@color/editTextColorWhite</item>
+        <item name="colorAccent">@color/editTextColorWhite</item>
+        <item name="colorControlNormal">@color/editTextColorWhite</item>
+        <item name="colorControlActivated"> @color/editTextColorWhite</item>
+    </style>
 
 
 </resources>
