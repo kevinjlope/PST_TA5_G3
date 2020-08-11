@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         imv_photo = findViewById(R.id.imageMain);
         Picasso.with(getApplicationContext()).load(photo).into(imv_photo);
 
-        Intent i = new Intent(this, PrincipalActivity.class);
+        Intent i = new Intent(this, LoginActivity.class);
         sleepImage h1 = new sleepImage(i);
         h1.start();
     }
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 Thread.sleep(3000);
                 startActivity(i);
+                finish();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
