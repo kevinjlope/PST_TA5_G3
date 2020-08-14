@@ -18,4 +18,12 @@
     <string name="text_btn_login">login</string>
     <string name="dont_have_account">No tienes una cuenta?</string>
     <string name="create_Here">Crea una aqui !!</string>
+    <string name="desconocido">Desconocido</string>
+    <string name="julio_verner">Julio Verner</string>
+    <string name="viaje_al_centro_de_la_tierra">Viaje al Centro de la tierra</string>
+    <string name="editorial">Editorial:</string>
+    <string name="autor">Autor:</string>
+    <string name="titulo">Titulo:</string>
+    <string name="todo">TODO</string>
+    <string name="qu_deseas_leer_hoy">¿Qué deseas leer hoy?</string>
 </resources>
