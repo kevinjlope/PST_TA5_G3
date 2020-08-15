@@ -55,6 +55,11 @@ public class ListaFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+    }
+
+    public void sinopsis (View view){
+        System.out.println("HOLA AMOR");
     }
 
     @Override
