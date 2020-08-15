@@ -65,6 +65,7 @@ public class ListaFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
+
     }
 
     public void sinopsis (View view){
@@ -76,7 +77,7 @@ public class ListaFragment extends Fragment {
         ArrayList<String> tabla6=generartabla("@drawable/amor","Amor a primera vista","P.Z. Reaizin","Planeta","Un cantante, ídolo popular, se casa por poder y confusión con una joven sin conocerla, pero ella sí lo conoce y lo ama.");
         ArrayList<String> tabla7=generartabla("@drawable/fisica","Fisica Universitaria","Sear Zemansky","Freedman","Libro para estudiantes de universidad con conocimiento avanzados en fisica");
         // Required empty public constructor*/
-        System.out.println(tabla2.getSinopsis());
+        System.out.println(tabla2.getSinopsis()); //se obtiene la sinopsis
     }
 
     @Override
