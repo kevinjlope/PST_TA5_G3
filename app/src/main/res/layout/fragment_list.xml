@@ -17,7 +17,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_width="255dp"
+            android:layout_width="268dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:ems="10"
@@ -59,7 +59,6 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:onClick="sinopsis"
                     android:src="@drawable/viaje" />
 
                 <GridLayout
@@ -100,7 +99,7 @@
                         android:id="@+id/titulo1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="titulo1"
+                        android:text="Viaje al centro de la Tierra"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         android:textStyle="bold"
@@ -128,6 +127,18 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/boton1"
+                    style="@style/Animation.Design.BottomSheetDialog"
+                    android:layout_width="76dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:width="@dimen/cardview_default_elevation"
+                    android:onClick="sinopsis"
+                    android:text="VER MÁS"
+                    android:textSize="8sp"
+                    tools:text="Ver más" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -144,7 +155,7 @@
                     android:src="@drawable/it" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="232dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -211,6 +222,14 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
+
             </LinearLayout>
 
 
@@ -228,7 +247,7 @@
                     android:src="@drawable/principito" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="232dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -295,6 +314,14 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -311,7 +338,7 @@
                     android:src="@drawable/dracula" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="234dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -378,6 +405,14 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -394,7 +429,7 @@
                     android:src="@drawable/estrella" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="234dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -461,6 +496,14 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
+
             </LinearLayout>
 
 
@@ -478,7 +521,7 @@
                     android:src="@drawable/amor" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="234dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -544,6 +587,14 @@
 
                 </GridLayout>
 
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -560,7 +611,7 @@
                     android:src="@drawable/fisica" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="234dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -625,6 +676,14 @@
                         tools:text="Freedman" />
 
                 </GridLayout>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="76dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="ver más"
+                    android:textSize="8sp" />
 
             </LinearLayout>
 

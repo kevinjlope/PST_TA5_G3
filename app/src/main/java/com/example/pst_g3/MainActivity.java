@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         private ImageView imv_photo;
         private String photo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         iniciarImagen();
 
     }
+
+    //for(int i=0; i<nombr.size(); i++){
+        //Item item = new Item(NOMBR[I][0], NOMBR[I][1],....);
+
+   // }
     public void iniciarImagen(){
         photo = "https://img.pngio.com/ebook-png-94-images-in-collection-page-1-ebook-png-300_318.png";
         imv_photo = findViewById(R.id.imageMain);
