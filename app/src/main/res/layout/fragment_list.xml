@@ -86,6 +86,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:text="@string/editorial"
                         android:textAlignment="center"
                         android:textSize="16sp"
@@ -132,7 +133,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/it" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
@@ -162,6 +163,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:text="@string/editorial"
                         android:textAlignment="center"
                         android:textSize="16sp"
@@ -173,7 +175,8 @@
                         android:text="@string/viaje_al_centro_de_la_tierra"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="It (Eso)" />
 
 
                     <TextView
@@ -182,7 +185,8 @@
                         android:text="@string/julio_verner"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="Stephen King" />
 
 
                     <TextView
@@ -191,7 +195,8 @@
                         android:text="@string/desconocido"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="delBolsillo" />
 
                 </GridLayout>
 
@@ -209,7 +214,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/principito" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
@@ -239,6 +244,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:text="@string/editorial"
                         android:textAlignment="center"
                         android:textSize="16sp"
@@ -247,28 +253,31 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/viaje_al_centro_de_la_tierra"
+                        android:text="titulo3"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="El principito" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/julio_verner"
+                        android:text="autor3"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="Saint-Exupéry" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/desconocido"
+                        android:text="editorial3"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="Biblioteca ILCE" />
 
                 </GridLayout>
 
@@ -285,7 +294,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/dracula" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
@@ -315,6 +324,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:text="@string/editorial"
                         android:textAlignment="center"
                         android:textSize="16sp"
@@ -323,24 +333,27 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/viaje_al_centro_de_la_tierra"
+                        android:text="titulo4"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="Drácula" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/julio_verner"
+                        android:text="autor4"
                         android:textAlignment="center"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="Bram Stoker" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:text="@string/desconocido"
                         android:textAlignment="center"
                         android:textSize="16sp"
@@ -361,7 +374,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/estrella" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
@@ -438,7 +451,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/amor" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
@@ -514,7 +527,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/splashscreen" />
+                    android:src="@drawable/fisica" />
 
                 <GridLayout
                     android:layout_width="wrap_content"
