@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.example.pst_g3.fragments.ListaFragment;
 import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;

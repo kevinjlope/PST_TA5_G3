@@ -62,8 +62,8 @@
                     android:src="@drawable/viaje" />
 
                 <GridLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="285dp"
+                    android:layout_height="match_parent"
                     android:columnCount="2"
                     android:orientation="vertical"
                     android:padding="10dp"
@@ -127,18 +127,6 @@
 
                 </GridLayout>
 
-                <Button
-                    android:id="@+id/boton1"
-                    style="@style/Animation.Design.BottomSheetDialog"
-                    android:layout_width="76dp"
-                    android:layout_height="33dp"
-                    android:layout_weight="1"
-                    android:width="@dimen/cardview_default_elevation"
-                    android:onClick="sinopsis"
-                    android:text="VER MÁS"
-                    android:textSize="8sp"
-                    tools:text="Ver más" />
-
             </LinearLayout>
 
             <LinearLayout
@@ -155,7 +143,7 @@
                     android:src="@drawable/it" />
 
                 <GridLayout
-                    android:layout_width="232dp"
+                    android:layout_width="282dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -221,14 +209,6 @@
                         tools:text="delBolsillo" />
 
                 </GridLayout>
-
-                <Button
-                    android:id="@+id/button8"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
 
             </LinearLayout>
 
@@ -314,14 +294,6 @@
 
                 </GridLayout>
 
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
-
             </LinearLayout>
 
             <LinearLayout
@@ -404,14 +376,6 @@
                         android:textStyle="bold" />
 
                 </GridLayout>
-
-                <Button
-                    android:id="@+id/button10"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
 
             </LinearLayout>
 
@@ -496,14 +460,6 @@
 
                 </GridLayout>
 
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
-
             </LinearLayout>
 
 
@@ -587,14 +543,6 @@
 
                 </GridLayout>
 
-                <Button
-                    android:id="@+id/button12"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
-
             </LinearLayout>
 
             <LinearLayout
@@ -611,7 +559,7 @@
                     android:src="@drawable/fisica" />
 
                 <GridLayout
-                    android:layout_width="234dp"
+                    android:layout_width="292dp"
                     android:layout_height="wrap_content"
                     android:columnCount="2"
                     android:orientation="vertical"
@@ -676,14 +624,6 @@
                         tools:text="Freedman" />
 
                 </GridLayout>
-
-                <Button
-                    android:id="@+id/button13"
-                    android:layout_width="76dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:text="ver más"
-                    android:textSize="8sp" />
 
             </LinearLayout>
 
