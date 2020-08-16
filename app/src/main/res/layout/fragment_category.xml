@@ -1,7 +1,604 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.CategoryFragment"/>
+    android:orientation="vertical"
+    tools:context=".fragments.CategoryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:ems="10"
+            android:hint="@string/categorias"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MostraPanta"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:text="@string/aventura"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="AVENTURA" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/viaje" />
+
+            <GridLayout
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Viaje al centro de la Tierra"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Viaje al centro de la Tierra" />
+
+
+                <TextView
+                    android:id="@+id/autor1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/julio_verner"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/editorial1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desconocido"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:text="@string/terror"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="TERROR" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/it" />
+
+            <GridLayout
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ESO"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="It (Eso)" />
+
+
+                <TextView
+                    android:id="@+id/autor2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stephen_king"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Stephen King" />
+
+
+                <TextView
+                    android:id="@+id/editorial2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desconocido"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="@string/desconocido" />
+
+            </GridLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagen7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/dracula" />
+
+            <GridLayout
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dracula"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Drácula" />
+
+
+                <TextView
+                    android:id="@+id/autor4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bram_stoker"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Bram Stoker" />
+
+
+                <TextView
+                    android:id="@+id/editorial4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/desconocido"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:text="@string/romance"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="ROMANCE" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagen6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/estrella" />
+
+            <GridLayout
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bajo_la_misma_estrella"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Bajo la misma estrella" />
+
+
+                <TextView
+                    android:id="@+id/autor5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/john_green"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="John Green" />
+
+
+                <TextView
+                    android:id="@+id/editorial5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nubedetinta"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Nubedetinta" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagen0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/amor" />
+
+            <GridLayout
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amor_a_primera_vista"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Amor a primera vista" />
+
+
+                <TextView
+                    android:id="@+id/autor6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p_z_reizin"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="P.Z. Reizin" />
+
+
+                <TextView
+                    android:id="@+id/editorial6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/planeta"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Planeta" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:text="@string/estudio"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="ESTUDIO" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagen4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fisica" />
+
+            <GridLayout
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:rowCount="3">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autor"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editorial"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titulo7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/viaje_al_centro_de_la_tierra"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Fisica Universitaria" />
+
+
+                <TextView
+                    android:id="@+id/autor7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/julio_verner"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Sear Zemansky" />
+
+
+                <TextView
+                    android:id="@+id/editorial7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desconocido"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Freedman" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

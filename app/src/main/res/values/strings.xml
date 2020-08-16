@@ -23,7 +23,26 @@
     <string name="viaje_al_centro_de_la_tierra">Viaje al Centro de la tierra</string>
     <string name="editorial">Editorial:</string>
     <string name="autor">Autor:</string>
+
+    <string name="ESO">ESO:</string>
     <string name="titulo">Titulo:</string>
     <string name="todo">TODO</string>
     <string name="qu_deseas_leer_hoy">¿Qué deseas leer hoy?</string>
+    <string name="aventura">AVENTURA</string>
+    <string name="estudio">ESTUDIO</string>
+    <string name="autoreso">AUTORESO</string>
+    <string name="dracula">dracula</string>
+    <string name="stephen_king">Stephen King</string>
+    <string name="bram_stoker">Bram Stoker</string>
+    <string name="bajo_la_misma_estrella">Bajo La misma Estrella</string>
+    <string name="john_green">John Green</string>
+    <string name="nubedetinta">Nubedetinta</string>
+    <string name="amor_a_primera_vista">Amor a primera vista</string>
+    <string name="p_z_reizin">P.Z. Reizin</string>
+    <string name="planeta">Planeta</string>
+    <string name="el_principito">El principito</string>
+    <string name="saint_exup_ry">Saint-Exupéry</string>
+    <string name="biblioteca_ilce">Biblioteca ILCE</string>
+    <string name="infantil">INFANTIL</string>
+
 </resources>
